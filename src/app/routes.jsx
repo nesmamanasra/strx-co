@@ -1,20 +1,16 @@
-import { createBrowserRouter, Navigate } from "react-router-dom";
-import PublicLayout from "./layouts/PublicLayout";
+import { createBrowserRouter } from "react-router-dom";
+import PublicLayout from "./components/layouts/PublicLayout";
 import Home from "./pages/Home";
-import Login from "./pages/Login";
-import NotFound from "./pages/NotFound";
-import { isLoggedIn } from "./lib/auth";
+
+// import Login from "./pages/Login";
+// import NotFound from "./pages/NotFound";
+// import { isLoggedIn } from "./lib/auth";
+
 
 export const router = createBrowserRouter([
   {
+    path: "/",
     element: <PublicLayout />,
-    children: [
-      { path: "/", element: <Home /> },
-      {
-        path: "/login",
-        element: isLoggedIn() ? <Navigate to="/" replace /> : <Login />,
-      },
-      { path: "*", element: <NotFound /> },
-    ],
+    children: [{ index: true, element: <Home /> }],
   },
 ]);

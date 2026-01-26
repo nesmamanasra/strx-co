@@ -1,16 +1,18 @@
-import Card from "../components/ui/Card";
-import Button from "../components/ui/Button";
-import { Link } from "react-router-dom";
-
+// import Card from "../components/ui/Card";
+// import Button from "../components/ui/Button";
+// import { Link } from "react-router-dom";
+import Navbar from "../components/layouts/Navbar";
+import HeroSection from "../components/home/HeroSection";
+import StatsSection from "../components/home/StatsSection";
+import SecuritySection from "../components/home/SecuritySection";
 
 export default function Home() {
   return (
-    <Card className="space-y-3">
-      <h1 className="text-xl font-semibold">React + Tailwind v4 ✅</h1>
-      <p className="text-sm text-gray-600">Landing page بسيطة كبداية.</p>
-      <Link to="/login">
-        <Button>Go to Login</Button>
-      </Link>
-    </Card>
+    <>
+      <Navbar />
+      <HeroSection />
+      <StatsSection />
+      <SecuritySection />
+    </>
   );
 }

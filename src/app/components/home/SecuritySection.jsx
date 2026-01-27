@@ -9,7 +9,10 @@ export default function SecuritySection() {
 
           <div className="mt-6 flex justify-center">
             <div className="grid place-items-center h-24 w-24 rounded-2xl">
-              <span className="text-6xl">🔒</span>
+              <img 
+               src="/safty.svg"
+              className="text-6xl"
+               />
             </div>
           </div>
 

@@ -24,7 +24,7 @@ export default function Navbar({
 
           <a
             href="#start"
-            className="rounded-md bg-white px-5 py-2.5 font-semibold text-[#0B5A49] hover:bg-white/90"
+             className="ms-6 lg:ms-20 rounded-md bg-white px-5 py-2.5 font-semibold text-[#0B5A49] hover:bg-white/90"
             style={{ fontSize: btnFs }}
           >
             ابدأ مجاناً

@@ -8,11 +8,12 @@ import SecuritySection from "../components/home/SecuritySection";
 
 export default function Home() {
   return (
-    <>
+      <div className="snap-y snap-mandatory">
       <Navbar />
+
       <HeroSection />
       <StatsSection />
       <SecuritySection />
-    </>
+    </div>
   );
 }

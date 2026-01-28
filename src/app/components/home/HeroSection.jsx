@@ -2,8 +2,8 @@ import Container from "../ui/Container";
 
 export default function HeroSection() {
   return (
-    <section className="bg-white">
-      <Container className="mt-10 sm:mt-8 lg:mt-20 py-10 sm:py-14 lg:py-16">
+<section className="w-full min-h-[100svh] snap-start flex items-center bg-white overflow-hidden">
+      <Container className="py-0">
         <div dir="ltr" className="grid items-center gap-15 lg:grid-cols-2">
           {/* الصورة يسار */}
           <div className="flex justify-center lg:justify-start">

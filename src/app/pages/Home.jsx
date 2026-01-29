@@ -5,6 +5,7 @@ import Navbar from "../components/layouts/Navbar";
 import HeroSection from "../components/home/HeroSection";
 import StatsSection from "../components/home/StatsSection";
 import SecuritySection from "../components/home/SecuritySection";
+import ServicesSection from "../components/home/ServicesSection";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <HeroSection />
       <StatsSection />
       <SecuritySection />
+       <ServicesSection />
     </div>
   );
 }

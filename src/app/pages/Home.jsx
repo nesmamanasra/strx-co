@@ -6,6 +6,9 @@ import HeroSection from "../components/home/HeroSection";
 import StatsSection from "../components/home/StatsSection";
 import SecuritySection from "../components/home/SecuritySection";
 import ServicesSection from "../components/home/ServicesSection";
+import PartnerStrxTest from "../components/home/PartnerStrxTest";
+import StorePackagesTemp from "../components/home/StorePackagesTemp";
+
 
 export default function Home() {
   return (
@@ -16,6 +19,9 @@ export default function Home() {
       <StatsSection />
       <SecuritySection />
        <ServicesSection />
+       <PartnerStrxTest />
+       <StorePackagesTemp />
+       
     </div>
   );
 }

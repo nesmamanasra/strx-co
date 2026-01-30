@@ -44,7 +44,7 @@ export default function ServicesSection() {
                 </div>
               </div>
 
-              <div className="space-y-8">
+              <div className="space-y-4">
                 {services.map((s, idx) => (
                   <div key={idx} className="flex items-start justify-between gap-6">
                     {/* Icon */}

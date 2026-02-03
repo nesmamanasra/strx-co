@@ -16,7 +16,7 @@ export default function SecuritySection() {
             </div>
           </div>
 
-          <p className="mt-1 text-4xl sm:text-5xl font-extrabold text-[#0B5A49]">
+          <p className="mt-1 text-4xl sm:text-5xl font-extrabold text-[#0B5A49] ">
             سكرنا القفل وبلعنا المفتاح
           </p>
         </div>

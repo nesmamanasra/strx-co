@@ -179,8 +179,8 @@ export default function StorePackages() {
   <div className="mt-8 flex justify-center lg:justify-start">
              <a
                 href="#start"
-                className="rounded-[30px] px-16 py-4 text-white text-[20px] font-semibold
-                          bg-gradient-to-l from-[#063A2F] to-[#075B4A]
+                className="rounded-[23px] px-16 py-4 text-white text-[20px] font-semibold
+                          bg-gradient-to-l from-[#062C24] to-[#075B4A]
                           hover:opacity-95 transition" >اتصل بنا  </a>
             </div>
   </div>

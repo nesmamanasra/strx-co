@@ -10,6 +10,8 @@ import PartnerStrxTest from "../components/home/PartnerStrxTest";
 import StorePackagesTemp from "../components/home/StorePackagesTemp";
 import ControlSection from "../components/home/ControlSection";
 import InfoSectiontemp from "../components/home/InfoSectiontemp";
+import TwoInfoSections from "../components/home/TwoInfoSections";
+import Footer from "../components/home/Footer";
 export default function Home() {
   return (
       <div className="snap-y snap-mandatory">
@@ -23,6 +25,8 @@ export default function Home() {
        <PartnerStrxTest />
        <StorePackagesTemp />
         <InfoSectiontemp />
+        <TwoInfoSections/>
+        <Footer/>
     </div>
   );
 }

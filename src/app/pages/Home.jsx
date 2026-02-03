@@ -9,6 +9,7 @@ import ServicesSection from "../components/home/ServicesSection";
 import PartnerStrxTest from "../components/home/PartnerStrxTest";
 import StorePackagesTemp from "../components/home/StorePackagesTemp";
 import ControlSection from "../components/home/ControlSection";
+import InfoSectiontemp from "../components/home/InfoSectiontemp";
 export default function Home() {
   return (
       <div className="snap-y snap-mandatory">
@@ -21,7 +22,7 @@ export default function Home() {
        <ServicesSection />
        <PartnerStrxTest />
        <StorePackagesTemp />
-       
+        <InfoSectiontemp />
     </div>
   );
 }

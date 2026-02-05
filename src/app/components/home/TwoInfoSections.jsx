@@ -24,16 +24,7 @@ export default function TwoInfoSections() {
       <section className="w-full bg-white  h-70">
         <div className="mx-auto max-w-3xl px-4 py-10 sm:py-14">
           <div className="flex flex-col gap-6 sm:flex-row sm:items-center sm:justify-between">
-            {/* Left button */}
-            <div className="sm:order-1">
-              <button
-                type="button"
-                className="inline-flex items-center justify-center rounded-[20px] bg-gradient-to-l from-[#062C24] to-[#075B4A] px-8 py-4 text-sm font-semibold text-white shadow-sm hover:opacity-95"
-              >
-                ابدأ مجاناً
-              </button>
-            </div>
-
+           
             {/* Right text */}
             <div className="sm:order-2 text-right">
               <h3 className="text-lg sm:text-2xl font-semibold text-[#2B2B2B]">
@@ -42,6 +33,16 @@ export default function TwoInfoSections() {
               <p className="mt-2 text-sm sm:text-base text-[#6B6B6B]">
                 ابدأ الآن مجاناً لمدة شهر، وحوّل متجرك ينطلق بقوة!
               </p>
+            </div>
+
+             {/* Left button */}
+            <div className="sm:order-1">
+              <button
+                type="button"
+                className="inline-flex items-center justify-center rounded-[20px] bg-gradient-to-l from-[#062C24] to-[#075B4A] px-8 py-4 text-sm font-semibold text-white shadow-sm hover:opacity-95"
+              >
+                ابدأ مجاناً
+              </button>
             </div>
           </div>
         </div>

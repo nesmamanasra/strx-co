@@ -54,8 +54,8 @@ export default function StatsSection() {
     return (
       <div
         className={[
-          "relative isolate overflow-hidden rounded-2xl p-6 text-white shadow-lg",
-          "h-[200px]",
+          "relative isolate overflow-hidden rounded-[10px] p-6 text-white shadow-lg",
+          "h-[210px]",
           bgClass,
         ].join(" ")}
         dir="rtl"
@@ -79,7 +79,7 @@ export default function StatsSection() {
 
   return (
 <section className="bg-white">
-      <Container className="py-10 sm:py-14 lg:py-16 mb-25">
+      <Container className="py-10 sm:py-14 lg:py-16 mb-15">
         <div className="text-center">
         <h2 className="text-4xl font-extrabold text-black">ما يميزنا</h2>
         <p className="mt-4 text-2xl font-medium text-gray-500">

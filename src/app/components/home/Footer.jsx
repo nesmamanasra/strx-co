@@ -5,7 +5,7 @@ export default function Footer() {
       {/* Section 1 (green banner) */}
       <section className="w-full bg-gradient-to-l from-[#062C24] to-[#075B4A]">
         <div className="mx-auto max-w-6xl px-4 py-10 sm:py-14">
-          <div className="flex flex-col items-center justify-center text-center">
+          {/* <div className="flex flex-col items-center justify-right text-center">
             <h2 className="text-lg sm:text-2xl font-semibold text-white">
               حول فكرتك إلى متجر إلكتروني ناجح اليوم
             </h2>
@@ -16,7 +16,10 @@ export default function Footer() {
             >
               ابدأ الآن
             </button>
-          </div>
+          </div> */}
+          <img
+           src="/strx-logo.svg"
+          />
         </div>
       </section>
     </div>

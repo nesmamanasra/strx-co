@@ -43,7 +43,7 @@ export default function ControlSection() {
             <div className="mt-10 grid gap-10 sm:grid-cols-2">
               {features.map((f) => (
                 <div key={f.no} className="text-right">
-                  <div className="flex justify-end">
+                  <div className="flex justify-start">
                     <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-white ring-1 ring-[#0F4D3A]/15 shadow-sm">
                       <img
                         src={f.icon}
@@ -75,13 +75,15 @@ export default function ControlSection() {
                   لوحة تحكم سهلة وتناسبك
                 </h2>
 
-                <img
+             
+              </div>
+               <div className="flex items-center justify-center gap-3"> <img
                   src="/control.svg"
                   alt="control"
                   className="h-100 w-100 object-contain"
                   draggable="false"
-                />
-              </div>
+                /></div>
+                
             </div>
           </div>
 

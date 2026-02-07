@@ -3,7 +3,7 @@ import Container from "../ui/Container";
 export default function SecuritySection() {
   return (
 <section className="bg-white">
-      <Container className="py-10 sm:py-14 lg:py-16 mb-15">
+      <Container className="py-10 sm:py-14 lg:py-16 ">
         <div className="text-center">
           <h3 className="text-4xl font-bold text-black">أمان</h3>
 

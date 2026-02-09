@@ -3,7 +3,7 @@ export default function TwoInfoSections() {
   return (
     <div dir="rtl" className="w-full">
       {/* Section 1 (green banner) */}
-      <section className="w-full  bg-gradient-to-l from-[#062C24] to-[#075B4A] h-70">
+      <section className="w-full  bg-gradient-to-l from-[#062C44] to-[#075B4A] h-70">
         <div className="mx-auto max-w-6xl px-4 py-10 sm:py-14">
           <div className="flex flex-col items-center justify-center text-center">
             <h2 className="text-lg sm:text-4xl font-semibold text-white mb-10 mt-10">
